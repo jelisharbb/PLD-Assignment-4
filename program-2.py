@@ -4,7 +4,7 @@ def getQuantity():
     appleQuan = int(input("How many apple/s do you want to purchase? "))
     orangeQuan = int(input("How many orange/s do you want to purchase? "))
     grandTtl = fruitPrc(apple=appleQuan, orange=orangeQuan)
-    print (f"The total amount is {grandTtl:,.2f} PHP.")
+    print (f"\nThe total amount is {grandTtl:,.2f} PHP. \n")
 
 def fruitPrc(apple, orange):
     applePrc = 20 * apple
