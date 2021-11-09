@@ -12,5 +12,6 @@ def userRcpt (money, apple):
         receipt = money % apple
         appleQntty = money // apple
         print (f"You can buy {appleQntty} and you have a change of {receipt:,.2f} PHP.")
-
-    
+    elif:
+        moneyShrt = apple - money
+        print (f"Sorry, but you do not have enough money to buy an apple. You need {moneyShrt:,.2f} more.")
